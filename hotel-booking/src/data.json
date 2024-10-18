@@ -1,0 +1,42 @@
+[
+    {
+        "Room number": 100,
+        "isBooked": true,
+        "Visitor name": "John Doe",
+        "Visitor email": "johndoe@example.com",
+        "Booked date": "2024-03-01",
+        "Check-in date": "2024-03-01"
+    },
+    {
+        "Room number": 101,
+        "isBooked": true,
+        "Visitor name": "Rita Chaulagain",
+        "Visitor email": "rita@example.com",
+        "Booked date": "2024-03-05",
+        "Check-in date": "2024-03-06"
+    },
+    {
+        "Room number": 103,
+        "isBooked": true,
+        "Visitor name": "Smriti Dahal",
+        "Visitor email": "SD@example.com",
+        "Booked date": "2024-03-10",
+        "Check-in date": "2024-03-10"
+    },
+    {
+        "Room number": 104,
+        "isBooked": true,
+        "Visitor name": "Piya Khan",
+        "Visitor email": "piya@example.com",
+        "Booked date": "2024-03-10",
+        "Check-in date": "2024-03-12"
+    },
+    {
+        "Room number": 105,
+        "isBooked": true,
+        "Visitor name": "Rupa Khalli",
+        "Visitor email": "beauty@example.com",
+        "Booked date": "2024-03-04",
+        "Check-in date": "2024-03-05"
+    }
+]

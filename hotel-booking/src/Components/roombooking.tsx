@@ -1,16 +1,20 @@
 import React from 'react';
 
 interface userProps {
-    name: string;
-    age: number;
+    roomNumber: number;
+    isBooked?: boolean;
+    visitorName: string;
+    VisitorEmail?:string;
+    bookedDate?: Date;
+    checkInDate?: Date;
 }
 
-const RoomBooking: React.FC<userProps> = ({name}) => {
+function RoomBooking(user:userProps) {
 
   return (
     <div>
       <h1>RoomBooking</h1>
-      <p>Hello {name}</p>
+      <p>Hello {user.visitorName}</p>
     </div>
     
   )
