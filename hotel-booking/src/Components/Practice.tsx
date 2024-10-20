@@ -1,19 +1,24 @@
 type userProps = {
-    userData: {
+    users: {
         name:string,
         age:number
 
-    }
+    }[]
 }
 
-// type userProps2 = {
-//     name:string,
-//     age:number
-// }[]
 
-function Practice(user:userProps) {
+
+function Practice(props:userProps) {
   return (
-    <div>Hello {user.userData.name}, your are {user.userData.age} years old</div>
+    <div>
+        {props.users.map((user) => (
+            <div key={user.name}>
+                <h1>{user.name}</h1>
+                <h2>{user.age}</h2>
+            </div>
+        ))}
+    </div>
   )
+    
 }
 export default Practice;
